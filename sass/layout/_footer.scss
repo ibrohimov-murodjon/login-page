@@ -1,0 +1,14 @@
+.sitefooter {
+  &__info {
+    padding: 1.5rem 0;
+    background-color: black;
+  }
+  &__info-text {
+    width: 100%;
+    max-width: 473px;
+    font-weight: $main-font-weight;
+    font-size: $main-p-size-sm;
+    line-height: 167%;
+    color: $fifth-grade-color;
+  }
+}

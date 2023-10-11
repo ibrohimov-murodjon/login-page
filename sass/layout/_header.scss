@@ -1,0 +1,36 @@
+/*
+***** SITE HEADER STYLE *****
+*/
+.header__section {
+  padding: 2.5rem;
+  background-color: $secondary-color;
+
+    &-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .brand__logo {
+      width: 100%;
+      max-width: 97px;
+      &-img {
+        width: 100%;
+      }
+    }
+
+    .sitenav {
+      &__list {
+        display: flex;
+      }
+      &__list-item:not(:first-child) {
+        margin-left: 4rem;
+      }
+      &__list-item__link {
+        font-weight: $main-font-weight;
+        font-size: $main-a-size-lg;
+        color: $tertiary-color;
+        line-height: 154%;
+      }
+    }
+  }
+}
